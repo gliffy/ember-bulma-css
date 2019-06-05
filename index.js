@@ -2,6 +2,7 @@
 
 const Funnel     = require('broccoli-funnel');
 const mergeTrees = require('broccoli-merge-trees');
+const path       = require('path');
 
 module.exports = {
   name: 'ember-bulma-css',
@@ -10,7 +11,7 @@ module.exports = {
     const styleTrees = [];
 
     if (this.app.project.findAddonByName('ember-cli-sass')) {
-      styleTrees.push(new Funnel('node_modules/bulma/sass', {
+      styleTrees.push(new Funnel(path.dirname(require.resolve('bulma')), {
         destDir: 'ember-bulma-css'
       }));
     }
