@@ -26,6 +26,7 @@ You need to have ember-cli-sass installed, otherwise the addon will install it a
 
 ## Update
 
+- gliffy Added support for hoisted node_modules
 - 0.2.0 Updated Ember cli to 3.0.0 and bulma 0.6.2
 
 ## Usage
