@@ -5,7 +5,7 @@ const mergeTrees = require('broccoli-merge-trees');
 const path       = require('path');
 
 module.exports = {
-  name: 'ember-bulma-css',
+  name: '@gliffy/ember-bulma-css',
 
   treeForStyles: function treeForStyles(tree) {
     const styleTrees = [];

@@ -1,14 +1,14 @@
 {
-  "name": "ember-bulma-css",
+  "name": "@gliffy/ember-bulma-css",
   "version": "0.5.0",
-  "description": "Import Sass files from bulma css",
+  "description": "Import Sass files from bulma css. Forked from https://github.com/GerritSommer/ember-bulma-css to support hoisted node_modules",
   "keywords": [
     "ember-addon",
     "bulma",
     "css",
     "sass"
   ],
-  "repository": "https://github.com/GerritSommer/ember-bulma-css",
+  "repository": "https://github.com/gliffy/ember-bulma-css",
   "license": "MIT",
   "author": {
     "name": "Gerrit Sommer",
