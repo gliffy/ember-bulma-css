@@ -8,12 +8,16 @@
     "css",
     "sass"
   ],
-  "repository": "https://github.com/gliffy/ember-bulma-css",
-  "license": "MIT",
-  "author": {
-    "name": "Gerrit Sommer",
-    "email": "gerrit.sommer@outlook.com"
+  "license": "UNLICENSED",
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com/"
   },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/gliffy/ember-bulma-css.git"
+  },
+  "author": "Gliffy",
   "directories": {
     "doc": "doc",
     "test": "tests"
